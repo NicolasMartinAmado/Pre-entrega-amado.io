@@ -17,7 +17,9 @@
     display: flex;
     font-size: 22px;
     align-items: center;
-    justify-content: space-evenly;
+    text-align: center;
+    justify-content: space-between;
+    gap: 80px;
     list-style-type: none;
     background-image: url(../IMG/mmm.jpg);
 
@@ -34,8 +36,50 @@
 
     background-color: rgb(30, 69, 82);
     padding: 10px;
+    transform: scale(1.1);
     transition: 0.4s;
 
+}
+
+
+.offcanvas-body ul li a{
+    color: rgb(255, 255, 255);
+}
+.bg-personalizado{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../IMG/mmm.jpg);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-link{
+    border: 3px solid rgb(212, 170, 77);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+}
+.nav-link:hover{
+    background-color: rgb(30, 69, 82);
+    padding: 10px;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.navbar-nav{
+    gap: 15px
+    ;
+    font-size: 22px;
+ 
+}
+.navbar-toggler{
+    display: flex;
+  
 }
 
 
@@ -100,7 +144,7 @@ footer {
 .menu li a {
 
     border: 2px solid orange;
-    border-radius: 2px;
+    border-radius: 3px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 
@@ -113,7 +157,8 @@ footer {
 
 
 .logo {
-
+display: flex;
+justify-content: space-between;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1027,10 +1072,7 @@ footer {
 
     }
 
-    .logo {
-        align-content: center;
-
-    }
+  
 
 
     footer {
@@ -1174,15 +1216,21 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
-
-
-
+    
     .vid {
         width: 450px;
         height: 220px;
 
     }
-
+    .offcanvas-body{
+        background-image: url(../IMG/mmm.jpg);
+        background-repeat: no-repeat;
+        
+        }
+        .offcanvas-header{
+            background-image: url(../IMG/mmm.jpg);
+        }
+        
     .prf {
         font-size: 18px;
     }
@@ -1329,7 +1377,7 @@ footer {
         width: 15%;
 
     }
-
+ 
 }
 
 @media (max-width: 480px) {
