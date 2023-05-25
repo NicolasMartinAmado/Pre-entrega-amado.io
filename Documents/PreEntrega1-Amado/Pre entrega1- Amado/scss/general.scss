@@ -1,0 +1,111 @@
+/*MENU NAVBAR*/
+
+.menu {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 80px;
+    list-style-type: none;
+    background-image: url(../IMG/mmm.jpg);
+
+
+
+}
+
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+
+    background-color: rgb(30, 69, 82);
+    padding: 10px;
+    transform: scale(1.1);
+    transition: 0.4s;
+
+}
+
+
+.offcanvas-body ul li a{
+    color: rgb(255, 255, 255);
+}
+.bg-personalizado{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../IMG/mmm.jpg);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-link{
+    border: 3px solid rgb(212, 170, 77);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+}
+.nav-link:hover{
+    background-color: rgb(30, 69, 82);
+    padding: 10px;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.navbar-nav{
+    gap: 15px
+    ;
+    font-size: 22px;
+ 
+}
+.navbar-toggler{
+    display: flex;
+  
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+
+
+    background-image: url(../IMG/mmm.jpg);
+
+
+}
+
+.reserva {
+
+
+    text-transform: lowercase;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: bo2;
+}
+
+.adidas {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: bo2;
+    font-size: larger;
+
+
+
+
+}
