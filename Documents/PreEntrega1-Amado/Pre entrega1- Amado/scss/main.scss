@@ -410,37 +410,10 @@ justify-content: space-between;
     text-align: center;
 }
 
-.bodylogros {
-
-    background-image: url(../IMG/mmm.jpg);
-
-    background-position: right;
-    margin: 0;
-    padding: 0;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 
 
 
 
-}
-
-
-
-.mapa img {
-    width: 300px;
-    height: 250px;
-}
-
-.mapa {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-
-}
 
 .local {
     background-attachment: fixed;
@@ -636,6 +609,23 @@ justify-content: space-between;
 }
 
 
+.bodylogros {
+
+    background-image: url(../IMG/mmm.jpg);
+
+    background-position: right;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
 .logro {
 
     padding: 10px;
@@ -690,41 +680,8 @@ justify-content: space-between;
 
 
 
-.spo {
-
-    padding: 10px;
-    background-attachment: fixed;
 
 
-
-}
-
-.spo img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    background-attachment: fixed;
-    background-size: cover;
-
-
-
-}
-
-.sponsors li {
-    list-style-type: none;
-}
-
-.sponsors li a img {
-
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    align-items: center;
-
-
-}
 
 
 

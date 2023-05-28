@@ -170,7 +170,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 800px;
+  width: 700px;
   height: 450px;
 }
 
@@ -213,6 +213,16 @@ footer {
   display: flex;
   justify-content: center;
   gap: 150px;
+}
+
+.sponsors img {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.sponsors li {
+  text-decoration: none;
 }
 
 @media (max-width: 1260px) {
@@ -344,6 +354,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
+    justify-content: center;
+  }
+  .sponsors img {
+    display: flex;
+    align-content: center;
+    background-attachment: fixed;
   }
   .vid {
     width: 450px;
@@ -853,29 +869,6 @@ footer {
   text-align: center;
 }
 
-.bodylogros {
-  background-image: url(../IMG/mmm.jpg);
-  background-position: right;
-  margin: 0;
-  padding: 0;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
-.mapa img {
-  width: 300px;
-  height: 250px;
-}
-
-.mapa {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-}
-
 .local {
   background-attachment: fixed;
   display: flex;
@@ -1018,6 +1011,17 @@ footer {
   gap: 30px;
 }
 
+.bodylogros {
+  background-image: url(../IMG/mmm.jpg);
+  background-position: right;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .logro {
   padding: 10px;
   background-attachment: fixed;
@@ -1059,32 +1063,6 @@ footer {
   font-size: 22px;
   text-align: center;
   font-weight: bolder;
-}
-
-.spo {
-  padding: 10px;
-  background-attachment: fixed;
-}
-
-.spo img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.sponsors li {
-  list-style-type: none;
-}
-
-.sponsors li a img {
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-  background-attachment: fixed;
-  background-size: cover;
-  align-items: center;
 }
 
 /*# sourceMappingURL=master.css.map */

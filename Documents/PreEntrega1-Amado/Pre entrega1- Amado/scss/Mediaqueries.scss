@@ -213,8 +213,15 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
+        justify-content: center;
     }
-    
+    .sponsors img{
+        display: flex;
+        align-content: center;
+background-attachment: fixed;
+
+
+    }
     .vid {
         width: 450px;
         height: 220px;

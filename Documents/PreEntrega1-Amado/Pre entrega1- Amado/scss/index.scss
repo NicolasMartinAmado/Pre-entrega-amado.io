@@ -108,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 800px;
+    width: 700px;
     height: 450px;
 }
 .noticias {
@@ -158,6 +158,15 @@
     justify-content: center;
     gap: 150px;
 
-
+}
+.sponsors img{
+    display: flex;
+    width: 100%
+    ;
+    height: 100px;
+   
+}
+.sponsors li {
+    text-decoration: none;
 
 }
