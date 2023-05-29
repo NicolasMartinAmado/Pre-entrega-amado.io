@@ -213,6 +213,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 150px;
+  margin-top: 90px;
 }
 
 .sponsors img {
