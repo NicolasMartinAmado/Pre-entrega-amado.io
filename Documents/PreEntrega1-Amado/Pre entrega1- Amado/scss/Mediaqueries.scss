@@ -12,7 +12,87 @@
 
 
     }
+.titulonosotros{
+    font-size: 29px;
+}
+.nosotros_video{
+    width: 490px;
+    height: 280px;
+   
+}
+.local{
+    & p{
+        font-size: 23px;
+    }
+}
 
+.info_predios{
+    & img{
+        width: 500px;
+        height: 290px;
+        
+        
+            }
+    .info_predios_body {
+        width: 100%;
+        height: 190px;
+       
+                & h5 {   text-align: center;
+                    font-size: 27px;
+                    font-weight: bolder;
+                }
+                & p{   text-align: center;
+                    font-size: 14px;
+                }
+    }
+}
+
+
+.info_predios_area{
+   
+    & img{
+        width: 500px;
+        height: 290px;
+        
+        
+            }
+
+    .info_predios_body {
+        width: 100%;
+        height: 190px;
+        
+                & h5 {   text-align: center;
+                    font-size: 27px;
+                    font-weight: bolder;
+                }
+                & p{   text-align: center;
+                    font-size: 14px;
+                }
+    }
+}
+
+.sucursales{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    & img{
+        width: 100%;
+        height: 300px;
+    }
+    
+}
+
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(../IMG/mmm.jpg);
+    font-family: BO2;
+    font-size: 28px;
+
+    margin-top: 60px;
+
+}
     .caja img {
         width: 210px;
         height: 240px;
@@ -109,8 +189,11 @@
         font-size: 20px;
 
 
-
+& p{
+    font-size: 18px;
+}
     }
+
 
     .adidas img {
         width: 35%;
@@ -205,9 +288,136 @@
         gap: 15px;
 
     }
+    .info_predios{
+        & img{
+            width: 500px;
+            height: 290px;
+            
+            
+                }
+        .info_predios_body {
+            width: 100%;
+            height: 190px;
+           
+                    & h5 {   text-align: center;
+                        font-size: 20px;
+                        font-weight: bolder;
+                    }
+                    & p{   text-align: center;
+                        font-size: 11px;
+                    }
+        }
+    }
+    
+    
+    .info_predios_area{
+      
+        & img{
+            width: 500px;
+            height: 290px;
+          
+            
+                }
+    
+        .info_predios_body {
+            width: 100%;
+            height: 190px;
+            
+           
+                    & h5 {    text-align: center;
+                        font-size: 25px;
+                        font-weight: bolder;
+                    }
+                    & p{   text-align: center;
+                        font-size: 11px;
+                    }
+        }
+    }
+    .vid{
+        width: 600px;
+    }
 }
 
 @media (max-width: 768px) {
+    .local{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../IMG/blue.jpg);
+      background-attachment: fixed;
+        object-fit: cover;
+        & p{
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+    }
+    .nosotros_video{
+        width: 450px;
+        height: 220px;
+       
+    }
+ 
+    .info_predios{
+        margin-top: 100px;
+        margin-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        & img{
+            width: 300px;
+            height: 190px;
+            align-self: center;
+            
+                }
+        .info_predios_body {
+            width: 100%;
+            height: 100%;
+            
+                    & h5 {
+                        font-size: 25px;
+                        font-weight: bolder;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                    & p{
+                        font-size: 11px;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                  
+        }
+    }
+    
+    
+    .info_predios_area{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+justify-content: center;
+margin-top: 100px;
+margin-bottom: 120px;
+        & img{
+            width: 300px;
+            height: 190px;
+          
+      
+                }
+    
+        .info_predios_body {
+            width: 100%;
+            height: 100%;
+        
+          
+           
+                    & h5 {
+                        font-size: 24px;
+                        font-weight: bolder;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                    & p{
+                        font-size: 11px;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+        }
+    }
+    
 
     .sponsors {
         display: grid;
@@ -243,19 +453,13 @@ background-attachment: fixed;
     .cards {
         display: grid;
         grid-template-columns: repeat(2, 4fr);
-
-
-
-
         gap: 20px;
         align-content: center;
-
     }
 
 
     .menu {
         flex-direction: column;
-
     }
 
     .menu li {
@@ -268,7 +472,6 @@ background-attachment: fixed;
         justify-content: center;
         gap: 30px;
         color: transparent;
-
     }
 
     .compro:hover {
@@ -369,6 +572,7 @@ background-attachment: fixed;
 
         flex-direction: column;
 
+
     }
 
     .adidas {
@@ -379,24 +583,118 @@ background-attachment: fixed;
     }
 
     .adidas img {
-        width: 15%;
+        width: 100px;
 
     }
- 
+ .sucursales{
+    display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        gap: 20px;
+        
+ }
+ .card-body .localimg{
+    height: 100px;
+    object-fit: cover;
+  
+    
+   
+}
 }
 
 @media (max-width: 480px) {
+    .card-body .localimg{
+        height: 100px;
+        object-fit: cover;
+    }
+    .nosotros_video{
+        width: 400px;
+        height: 200px;
+       
+    }
+    .local{
+        & p{
+            font-size: 18px;
+        }
+    }
+    .info_predios{
+        margin-top: 100px;
+        margin-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        & img{
+            width: 300px;
+            height: 190px;
+            align-self: center;
+            
+                }
+        .info_predios_body {
+            width: 100%;
+            height: 100%;
+            
+                    & h5 {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: bolder;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                    & p{
+                        text-align: center;
+                        font-size: 11px;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                  
+        }
+    }
+    
+    
+    .info_predios_area{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+justify-content: center;
+margin-top: 100px;
+margin-bottom: 120px;
+        & img{
+            width: 290px;
+            height: 160px;
+          
+      
+                }
+    
+        .info_predios_body {
+            width: 100%;
+            height: 100%;
+      
+          
+           
+                    & h5 {
+                        
+                        text-align: center;
+                        
+                        
+                        font-size: 20px;
+                        font-weight: bolder;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+                    & p{
+                        text-align: center;
+                        font-size: 11px;
+                        background-image: url(../IMG/mmm.jpg);
+                    }
+        }
+    }
+    
     .videopresentacion {
         justify-content: center;
     }
 
     .vid {
-        width: 390px;
+        width: 300px;
         height: 180px;
     }
 
     .prf {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .caja img {
@@ -410,6 +708,7 @@ background-attachment: fixed;
 
     }
     .card img{
+        
         height: 120px;
     }
 
