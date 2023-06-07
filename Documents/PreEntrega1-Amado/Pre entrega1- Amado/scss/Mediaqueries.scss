@@ -153,15 +153,30 @@
   
 
 
-    footer {
-        display: flex;
 
-        margin-top: 30px;
-        width: 100%;
+        footer {
+ 
+            margin-top: 50px;
+            width: 100%;
+           background-color: black;
+          
+        
+        & .redes {
+            display: flex; 
+            gap: 20px;
+            & a img { width: 100%;
+                height: 60px;
+                justify-content: space-between;
+                align-items: center;
+                
+            
+              
+            }
+        }
+        
+        }
 
-
-
-    }
+    
 
     .titulo__sponsor {
 
@@ -189,16 +204,11 @@
         font-size: 20px;
 
 
-& p{
-    font-size: 18px;
-}
     }
 
 
-    .adidas img {
-        width: 35%;
-
-    }
+  
+   
 
     .productobody {
         flex-direction: column;
@@ -568,22 +578,18 @@ background-attachment: fixed;
 
     }
 
-    footer .reserva {
+    footer .redes a img {
 
-        flex-direction: column;
-
-
-    }
-
-    .adidas {
-        flex-direction: column;
-        justify-content: space-between;
+        width: 40px;
+        height: 30px;
 
 
     }
 
+   
     .adidas img {
-        width: 100px;
+        width: 140px;
+
 
     }
  .sucursales{
@@ -602,6 +608,12 @@ background-attachment: fixed;
 }
 
 @media (max-width: 480px) {
+    .productobody{
+        background-image: url(../IMG/llpff.jpg);
+        background-attachment: fixed;
+       background: scroll;
+        
+    }
     .card-body .localimg{
         height: 100px;
         object-fit: cover;
