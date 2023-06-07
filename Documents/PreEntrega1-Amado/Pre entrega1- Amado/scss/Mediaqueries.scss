@@ -551,7 +551,7 @@ background-attachment: fixed;
         background-color: wheat;
 
         font-family: BO2;
-        font-size: 20px;
+        font-size: 22px;
         display: flex;
         flex-direction: column;
 
@@ -608,12 +608,7 @@ background-attachment: fixed;
 }
 
 @media (max-width: 480px) {
-    .productobody{
-        background-image: url(../IMG/llpff.jpg);
-        background-attachment: fixed;
-       background: scroll;
-        
-    }
+ 
     .card-body .localimg{
         height: 100px;
         object-fit: cover;
