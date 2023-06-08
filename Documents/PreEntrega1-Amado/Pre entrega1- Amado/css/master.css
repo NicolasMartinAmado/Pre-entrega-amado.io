@@ -325,6 +325,92 @@ footer .redes a img {
 }
 
 @media (max-width: 1260px) {
+  .videologro {
+    display: flex;
+    width: 1100px;
+  }
+  .logrito {
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: bo2;
+    gap: 10px;
+  }
+  .logrito p {
+    font-size: 18px;
+  }
+  .titulogro {
+    text-align: center;
+    color: rgb(105, 130, 201);
+    background-color: wheat;
+    font-family: BO2;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .fotoslogros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+  }
+  .fotos_logros_1986 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .bodylogros {
+    background-image: url(../IMG/llpff.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  .logro {
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .logro .messifinalissima {
+    width: 700px;
+    height: 350px;
+  }
+  .logro .messimundial {
+    width: 700px;
+    height: 350px;
+  }
+  .logro .kempes {
+    width: 700px;
+    height: 350px;
+  }
+  .logro .maradonamundial {
+    width: 700px;
+    height: 350px;
+  }
+  .logro .maradonafinalissima {
+    width: 700px;
+    height: 350px;
+  }
+  .logro .messiamerica {
+    width: 700px;
+    height: 350px;
+  }
+  .logros_2 {
+    background-color: rgb(70, 6, 6);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    color: white;
+    font-size: 2px;
+    text-align: center;
+    font-weight: bolder;
+  }
   .cajas {
     justify-content: center;
     gap: 20px;
@@ -554,10 +640,66 @@ footer .redes a img {
   }
 }
 @media (max-width: 768px) {
+  .titulogro {
+    font-size: 22px;
+  }
+  .logrito {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: bo2;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .logrito p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .videologro {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .logro {
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .logro .messifinalissima {
+    width: 480px;
+    height: 350px;
+  }
+  .logro .messimundial {
+    width: 480px;
+    height: 350px;
+  }
+  .logro .kempes {
+    width: 480px;
+    height: 350px;
+  }
+  .logro .maradonamundial {
+    width: 480px;
+    height: 350px;
+  }
+  .logro .maradonafinalissima {
+    width: 480px;
+    height: 350px;
+  }
+  .logro .messiamerica {
+    width: 480px;
+    height: 350px;
+  }
   .local {
     display: flex;
     flex-direction: column;
-    background-image: url(../IMG/blue.jpg);
     background-attachment: fixed;
     object-fit: cover;
   }
@@ -743,13 +885,77 @@ footer .redes a img {
   }
 }
 @media (max-width: 480px) {
+  .titulogro {
+    font-size: 22px;
+  }
+  .logrito {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: bo2;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .logrito p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .videologro {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
+  .logro {
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  .logro .messifinalissima {
+    width: 360px;
+    height: 280px;
+  }
+  .logro .messimundial {
+    width: 360px;
+    height: 280px;
+  }
+  .logro .kempes {
+    width: 360px;
+    height: 280px;
+  }
+  .logro .maradonamundial {
+    width: 360px;
+    height: 280px;
+  }
+  .logro .maradonafinalissima {
+    width: 360px;
+    height: 280px;
+  }
+  .logro .messiamerica {
+    width: 360px;
+    height: 280px;
+  }
+  .videologro {
+    width: 320px;
+    height: 200px;
+  }
+  .titulonosotros {
+    font-size: 24px;
+  }
   .card-body .localimg {
     height: 100px;
     object-fit: cover;
   }
   .nosotros_video {
-    width: 400px;
-    height: 200px;
+    width: 280px;
+    height: 190px;
   }
   .local p {
     font-size: 18px;
@@ -809,10 +1015,16 @@ footer .redes a img {
   }
   .videopresentacion {
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
   }
   .vid {
     width: 300px;
     height: 180px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
   }
   .prf {
     font-size: 12px;
@@ -920,6 +1132,10 @@ footer .redes a img {
   object-fit: cover;
   background-attachment: fixed;
   background-size: cover;
+}
+.logro img:hover {
+  transform: scale(1.05);
+  transition: 0.8s;
 }
 
 .messilogro {
